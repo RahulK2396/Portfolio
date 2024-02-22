@@ -1,9 +1,10 @@
+/* eslint-disable */
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/Constants';
-import { Close, CloseRounded } from '@mui/icons-material';
+// import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 
 const Navbar = () => {
